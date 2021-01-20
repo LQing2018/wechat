@@ -1,15 +1,36 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/main/main"
-
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle":"black"
+  "usingComponents": {
+    "van-button": "@vant/weapp/button/index"
   },
-  "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "俞小澍",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#aaaaaa", 
+    "selectedColor": "#2E87E4",
+    "backgroundColor": "#ffffff",  
+    "borderStyle": "black", 
+    "position": "bottom",  
+    "list": [{
+        "selectedIconPath": "images/main_selected.png",
+        "iconPath": "images/main.png",
+        "pagePath": "pages/index/index",
+        "text": ""
+      },
+      {
+        "selectedIconPath": "images/mystore_select.png",
+        "iconPath": "images/mystore.png",
+        "pagePath": "pages/main/main",
+        "text": ""
+      }
+    ]
+  }
 }

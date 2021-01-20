@@ -1,13 +1,22 @@
-// pages/main/main.js
+// pages/index/index.js
 Page({
 
   /**
    * 页面的初始数据
    */
-  data: {
-
+  data: { 
+    imgsrc:'',
+    message:'hallo  world1',
   },
+  getusermessage:function (e) {
+      console.log(e.detail.userInfo);
+      let info = e.detail.userInfo  
 
+      this.setData({
+        message : info.nickName,
+        imgsrc :  info.avatarUrl
+      })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
@@ -19,14 +28,14 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-
+    this.getusermessage()
   },
 
   /**
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
+    this.getusermessage()
   },
 
   /**

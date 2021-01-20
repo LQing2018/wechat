@@ -1,1 +1,13 @@
-/* pages/main/main.wxss */
+/* pages/index/index.wxss */
+.contanier{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around; 
+}
+.imgscr{ 
+  width: 300rpx;
+  height: 300rpx;
+  border-radius: 50%;
+}

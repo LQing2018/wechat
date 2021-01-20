@@ -1,1 +1,15 @@
-/* pages/index/index.wxss */
+.swiper image {
+  width: 100%;
+  height: 100%;
+ }
+   
+ .swiper-image {
+  height: 100%;
+  width: 100%;
+ }
+   
+ .slide-image {
+  height: 100%;
+  width: 100%;
+  display: block;
+ }

@@ -1,2 +1,5 @@
-<!--pages/main/main.wxml-->
-<text>pages/main/main.wxml</text>
+<view class="contanier"> 
+  <image src='{{imgsrc}}' alt="" class="imgscr" ></image>
+  <text>{{message}}</text>
+  <button open-type="getUserInfo" bindgetuserinfo="getusermessage">获取信息</button>
+</view>
