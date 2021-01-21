@@ -7,10 +7,10 @@ Page({
   data: {
     //-----------模拟banner图-----------
     imgUrls: [
-    '/images/1.png',
-    '/images/2.png',
-    '/images/3.png',
-    '/images/4.png', 
+    '/images/1.jpg',
+    '/images/2.jpg',
+    '/images/3.jpg',
+    '/images/4.jpg', 
     ],
     circular: true,
     //是否显示画板指示点 

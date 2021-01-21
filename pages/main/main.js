@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: { 
-    imgsrc:'',
+    imgsrc:'./images/2.jpg',
     message:'hallo  world1',
   },
   getusermessage:function (e) {
